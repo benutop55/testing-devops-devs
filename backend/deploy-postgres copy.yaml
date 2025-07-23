@@ -17,11 +17,11 @@ spec:
           image: postgres:latest
           env:
           - name: POSTGRES_USER
-            value: "devopsvika"
+            value: "resnu"
           - name: POSTGRES_PASSWORD
             value: "secret123"
           - name: POSTGRES_DB
-            value: "dbku"
+            value: "dbdev"
           ports:
           - containerPort: 5432
           volumeMounts:
