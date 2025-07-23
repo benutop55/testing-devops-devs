@@ -22,5 +22,3 @@ services:
     envVars:
       - key: PORT
         value: 5001
-      - key: VITE_BACKEND_URL
-        value: https://testing-devops-backend.onrender.com
