@@ -77,11 +77,11 @@ jobs:
         working-directory: ./terraform-render
 
       - name: Terraform Plan
-        run: terraform plan -out=infra.plan
+        run: terraform plan -out=terr.plan
         working-directory: ./terraform-render
         
       - name: Terraform Apply 
-        run: terraform apply infra.plan
+        run: terraform apply terr.plan
         working-directory: ./terraform-render
 
 
