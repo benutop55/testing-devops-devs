@@ -13,7 +13,7 @@ provider "render" {
 }
 
 resource "render_web_service" "backend" {
-  name   = "testing-dev-backend"
+  name   = "dev-backend"
   plan   = "starter"
   region = "oregon"
 
@@ -39,7 +39,7 @@ resource "render_web_service" "backend" {
 }
 
 resource "render_web_service" "frontend" {
-  name   = "testing-dev-frontend"
+  name   = "dev-frontend"
   plan   = "starter"
   region = "oregon"
 
@@ -48,7 +48,7 @@ resource "render_web_service" "frontend" {
       value = "5001"
     }
     VITE_BACKEND_URL = {
-      value = "https://testing-devops-backend-c9q7.onrender.com"
+      value = "https://testing-devops-backend-1hbq.onrender.com"
     }
   }
 
