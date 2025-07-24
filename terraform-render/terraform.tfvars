@@ -1,5 +1,5 @@
 RENDER_API_KEY = "rnd_mccCCLVZ3d4DdMVZrTFBOjVZQQuf"
 OWNER_ID       = "tea-d1uqsoemcj7s73ep4aig"
-repo_url       = "https://github.com/benutop55/testing-devops-devs.git"
+repo_url       = "https://github.com/benutop55/testing-devops-devs"
 repo_branch    = "main"
 DATABASE_URL   = "postgresql://resnu:n2pxiFI20lQZ0Wednw6moiCHWKK67t1x@dpg-d206hongi27c73c7kt1g-a/dbdev_xvch"
